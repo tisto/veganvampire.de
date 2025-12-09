@@ -97,3 +97,79 @@ erstelle eine version des logos als favicon.ico und binde es in der website ein.
 
 ---
 
+## Prompt 7 (2025-12-09)
+
+**User Prompt:**
+```
+füge ein neues rezept auf der startseite hinzu "Penne Spinaci".
+```
+
+**Ergebnis:**
+- Neues Rezept "Penne Spinaci" als 10. Card hinzugefügt
+- Beschreibung: "Cremige Pasta mit frischem Spinat und Knoblauch in veganer Sahnesauce"
+- Pasta-Emoji (🍝) als Placeholder-Bild
+- Startseite zeigt jetzt 10 Rezepte statt 9
+
+---
+
+## Prompt 8 (2025-12-09)
+
+**User Prompt:**
+```
+lösche alle rezepte von der startseite außer "Penne Spinaci"
+```
+
+**Ergebnis:**
+- Alle 9 anderen Rezepte gelöscht (Pasta Alfredo, Thai Curry, Buddha Bowl, Burger, Pancakes, Schokoladenkuchen, Chili sin Carne, Ramen Bowl, Tacos)
+- Nur "Penne Spinaci" bleibt auf der Startseite
+- Grid-System bleibt erhalten für zukünftige Rezepte
+
+---
+
+## Prompt 9 (2025-12-09)
+
+**User Prompt:**
+```
+ersetze "Alle Rezepte mit Liebe erstellt" mit "Alle Rezepte 100% vegan".
+```
+
+**Ergebnis:**
+- Footer-Text geändert von "Alle Rezepte mit Liebe erstellt" zu "Alle Rezepte 100% vegan"
+- Copyright-Zeile jetzt: "© 2025 - Alle Rezepte 100% vegan"
+
+---
+
+## Prompt 10 (2025-12-09)
+
+**User Prompt:**
+```
+ich habe ein neues logo unter logo-landscape.png hochgeladen. verwenden dieses logo im header.
+```
+
+**Ergebnis:**
+- Neues Logo logo-landscape.png in assets/images/ gefunden (454KB)
+- Header-Logo von logo.png auf logo-landscape.png geändert
+- Landscape-Format Logo wird jetzt im Header verwendet
+- Footer behält das ursprüngliche Logo
+
+---
+
+## Prompt 11 (2025-12-09)
+
+**User Prompt:**
+```
+erstelle eine rezept detailseite für das rezept "Penne Spinaci". Zutaten sind: Penne (250g, halbe Packung), 1x Zwiebel, 1x Knoblauchzehe, Spinat (200g), vegane Sahne (Oatly). Zubereitung: 1) zwiebel schälen und in kleine würfel schneiden, knoblauch in kleine würfel schneiden, in die pfanne geben und mit etwas olivenöl anbraten, spinat hinzufügen bis dieser aufgeweicht ist, penne mit etwas nudelwasser in die pfanne geben, am schluss vegane sahne hinzufügen und mit salz und pfeffer abschmecken.
+```
+
+**Ergebnis:**
+- penne-spinaci.html erstellt mit vollständiger Rezeptseite
+- Strukturierte Darstellung: Header mit Titel und Beschreibung
+- Info-Cards: 2 Portionen, 25 Min Zubereitungszeit, Einfache Schwierigkeit
+- Zutatenliste mit allen 7 Zutaten (inkl. Olivenöl, Salz & Pfeffer)
+- Schritt-für-Schritt Anleitung (5 Schritte)
+- Tipp-Box mit Hefeflocken-Empfehlung
+- Zurück-Button zur Übersicht
+- "Zum Rezept" Button auf index.html verlinkt zu penne-spinaci.html
+
+---
+

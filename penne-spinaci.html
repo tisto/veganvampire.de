@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penne Spinaci - Vegan Vampire</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- Tailwind CSS + DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Navigation -->
+    <header class="navbar bg-base-100 shadow-lg">
+        <div class="container mx-auto">
+            <div class="flex-1">
+                <a href="/" class="flex items-center gap-2">
+                    <img src="assets/images/logo-landscape.png" alt="Vegan Vampire Logo" class="h-16 w-auto">
+                </a>
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/rezepte.html">Rezepte</a></li>
+                    <li><a href="/ueber-uns.html">Über uns</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-8 max-w-4xl">
+
+        <!-- Back Button -->
+        <div class="mb-6">
+            <a href="/" class="btn btn-ghost btn-sm">
+                ← Zurück zur Übersicht
+            </a>
+        </div>
+
+        <!-- Recipe Header -->
+        <div class="mb-8">
+            <h1 class="text-5xl font-bold mb-4">Penne Spinaci</h1>
+            <p class="text-xl text-base-content/70">Cremige Pasta mit frischem Spinat und Knoblauch in veganer Sahnesauce</p>
+        </div>
+
+        <!-- Recipe Image Placeholder -->
+        <div class="mb-8">
+            <div class="w-full h-96 bg-base-300 rounded-lg flex items-center justify-center">
+                <span class="text-9xl">🍝</span>
+            </div>
+        </div>
+
+        <!-- Recipe Info Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <div class="stat bg-base-200 rounded-lg">
+                <div class="stat-title">Portionen</div>
+                <div class="stat-value text-3xl">2</div>
+            </div>
+            <div class="stat bg-base-200 rounded-lg">
+                <div class="stat-title">Zubereitungszeit</div>
+                <div class="stat-value text-3xl">25 Min</div>
+            </div>
+            <div class="stat bg-base-200 rounded-lg">
+                <div class="stat-title">Schwierigkeit</div>
+                <div class="stat-value text-3xl">Einfach</div>
+            </div>
+        </div>
+
+        <!-- Ingredients Section -->
+        <div class="card bg-base-100 shadow-xl mb-8">
+            <div class="card-body">
+                <h2 class="card-title text-3xl mb-4">Zutaten</h2>
+                <ul class="space-y-2">
+                    <li class="flex items-start">
+                        <span class="mr-2">•</span>
+                        <span>250g Penne (halbe Packung)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2">•</span>
+                        <span>1 Zwiebel</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2">•</span>
+                        <span>1 Knoblauchzehe</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2">•</span>
+                        <span>200g Spinat</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2">•</span>
+                        <span>Vegane Sahne (Oatly)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2">•</span>
+                        <span>Olivenöl</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2">•</span>
+                        <span>Salz und Pfeffer</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Instructions Section -->
+        <div class="card bg-base-100 shadow-xl mb-8">
+            <div class="card-body">
+                <h2 class="card-title text-3xl mb-4">Zubereitung</h2>
+                <ol class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="font-bold mr-3 text-primary">1.</span>
+                        <span>Zwiebel schälen und in kleine Würfel schneiden. Knoblauch ebenfalls in kleine Würfel schneiden.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="font-bold mr-3 text-primary">2.</span>
+                        <span>Zwiebel und Knoblauch in die Pfanne geben und mit etwas Olivenöl anbraten.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="font-bold mr-3 text-primary">3.</span>
+                        <span>Spinat hinzufügen und anbraten, bis dieser aufgeweicht ist.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="font-bold mr-3 text-primary">4.</span>
+                        <span>Penne mit etwas Nudelwasser in die Pfanne geben.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="font-bold mr-3 text-primary">5.</span>
+                        <span>Am Schluss vegane Sahne hinzufügen und mit Salz und Pfeffer abschmecken.</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Tips Section (Optional) -->
+        <div class="alert bg-base-200 mb-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <div>
+                <h3 class="font-bold">Tipp</h3>
+                <div class="text-sm">Für extra Geschmack kannst du etwas Hefeflocken über das fertige Gericht streuen.</div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content mt-12">
+        <aside>
+            <img src="assets/images/logo.png" alt="Vegan Vampire Logo" class="h-12 w-auto mb-2">
+            <p>Vegane Rezepte ohne Werbung</p>
+            <p class="text-sm opacity-70">© 2025 - Alle Rezepte 100% vegan</p>
+        </aside>
+    </footer>
+
+</body>
+</html>
