@@ -173,3 +173,44 @@ erstelle eine rezept detailseite für das rezept "Penne Spinaci". Zutaten sind: 
 
 ---
 
+## Prompt 12 (2025-12-09)
+
+**User Prompt:**
+```
+vereine die schritte 1 und 2 zu einem schritt
+```
+
+**Ergebnis:**
+- Schritte 1 und 2 zu einem Schritt vereint
+- Neue Anleitung hat jetzt 4 Schritte statt 5
+- Schritt 1: Zwiebel und Knoblauch schneiden UND in der Pfanne anbraten
+
+---
+
+## Prompt 13 (2025-12-09)
+
+**User Prompt:**
+```
+ändere die zubereitungszeit in 15 Minuten
+```
+
+**Ergebnis:**
+- Zubereitungszeit von 25 Min auf 15 Min geändert
+- Info-Card auf penne-spinaci.html aktualisiert
+
+---
+
+## Prompt 14 (2025-12-09)
+
+**User Prompt:**
+```
+ändere den footer claim von "Vegane Rezepte ohne Werbung" in "Vegane Rezepte"
+```
+
+**Ergebnis:**
+- Footer-Claim von "Vegane Rezepte ohne Werbung" zu "Vegane Rezepte" geändert
+- Änderung in index.html durchgeführt
+- Änderung in penne-spinaci.html durchgeführt
+
+---
+
