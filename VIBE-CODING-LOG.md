@@ -466,3 +466,17 @@ füge den vegan-vampire-banner-ueber-uns.png zur seite über-uns hinzu. position
 
 ---
 
+## Prompt 29 (2025-12-09)
+
+**User Prompt:**
+```
+ändere auf der über-uns seite "Kein Werbung" in "Ohne Werbung"
+```
+
+**Ergebnis:**
+- Card-Titel von "Keine Werbung" zu "Ohne Werbung" geändert
+- Alt-Text des Bildes entsprechend angepasst
+- Änderung auf ueber-uns.html durchgeführt
+
+---
+
