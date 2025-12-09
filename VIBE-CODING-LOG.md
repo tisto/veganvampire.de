@@ -353,3 +353,20 @@ weitere prompts: füge einen claim unterhalb von veganvampire.de hinzu "Vegane R
 
 ---
 
+## Prompt 23 (2025-12-09)
+
+**User Prompt:**
+```
+auf der startseite bei dem rezept "penne spinaci" soll der name des autors stehen "SpongeBob". der autorenname soll eine sekundäre information sein die visuell etwas im hintergrund steht.
+```
+
+**Ergebnis:**
+- Autorenname "von SpongeBob" zur Rezept-Card auf index.html hinzugefügt
+- Positioniert direkt unter dem Titel
+- Styling: Klein (text-sm), gedämpfte Farbe (text-base-content/50 = 50% Opacity)
+- Negative Margin oben (-mt-2) für engeren Abstand zum Titel
+- Margin unten (mb-2) für Abstand zur Beschreibung
+- Visuell im Hintergrund durch reduzierte Deckkraft
+
+---
+
