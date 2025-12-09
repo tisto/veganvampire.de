@@ -480,3 +480,42 @@ füge den vegan-vampire-banner-ueber-uns.png zur seite über-uns hinzu. position
 
 ---
 
+## Prompt 30 (2025-12-09)
+
+**User Prompt:**
+```
+füge ein neues rezept hinzu mit dem namen "Vegane Bowl" von Patrick. Zutatenliste: Basmati Reis (zwei Tassen), 1x Mango, 1/3 Gurke, 1 Paprika, Edamame Bohnen, Soja Chunks, Geröstete Sesamsoße, Sesamsamen. Zubereitung: Reis mit zwei Tassen Wasser und einem Teelöffel Salz mit zugedecktem Deckel auf niedriger Temperatur ca. 15 Minuten kochen, bis das Wasser aufgebraucht ist. Toppings auf dem Reis platzieren und mit Sesamsoße und Sesamsamen garnieren.
+```
+
+**Ergebnis:**
+- Neue Rezeptseite vegane-bowl.html erstellt
+  - Titel: "Vegane Bowl"
+  - Autor: Patrick
+  - Beschreibung: "Bunte Bowl mit Basmati Reis, frischem Gemüse und gerösteter Sesamsoße"
+  - Portionen: 2
+  - Zubereitungszeit: 20 Minuten
+  - Schwierigkeit: Einfach
+  - Zutaten: 2 Tassen Basmati Reis, 1 Mango, 1/3 Gurke, 1 Paprika, Edamame Bohnen, Soja Chunks, Geröstete Sesamsoße, Sesamsamen, 1 TL Salz
+  - Zubereitung: 2 Schritte (Reis kochen, Toppings arrangieren)
+  - Tipp: Optionale Toppings wie Avocado, Radieschen, geröstete Nüsse
+- Rezeptkarte auf index.html hinzugefügt (als erstes Rezept)
+- Rezeptkarte auf rezepte.html hinzugefügt (als erstes Rezept)
+- Vegane Bowl wird jetzt vor Penne Spinaci angezeigt
+
+---
+
+## Prompt 31 (2025-12-09)
+
+**User Prompt:**
+```
+FÜge eine halbe Avocado und 4 radieschen zum rezept hinzu
+```
+
+**Ergebnis:**
+- Zutatenliste in vegane-bowl.html erweitert
+- 1/2 Avocado nach Paprika hinzugefügt
+- 4 Radieschen nach Avocado hinzugefügt
+- Reihenfolge: Mango, Gurke, Paprika, Avocado, Radieschen, dann Edamame, Soja Chunks, Saucen
+
+---
+
