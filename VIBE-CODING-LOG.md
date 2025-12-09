@@ -449,3 +449,20 @@ die bilder sind falsch angebracht. schiebe das bild oben links nach unten rechts
 
 ---
 
+## Prompt 28 (2025-12-09)
+
+**User Prompt:**
+```
+füge den vegan-vampire-banner-ueber-uns.png zur seite über-uns hinzu. positioniert wie auf der startseite.
+```
+
+**Ergebnis:**
+- vegan-vampire-banner-ueber-uns.png in assets/images/ gefunden (11MB)
+- Banner zur ueber-uns.html hinzugefügt
+- Positioniert ganz oben im Main-Bereich (vor dem Page Header)
+- Gleiche Styling wie auf der Startseite: volle Breite, abgerundete Ecken, Schatten
+- Abstand nach unten (mb-12)
+- Alt-Text für Barrierefreiheit
+
+---
+
