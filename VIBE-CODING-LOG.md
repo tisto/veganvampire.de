@@ -370,3 +370,20 @@ auf der startseite bei dem rezept "penne spinaci" soll der name des autors stehe
 
 ---
 
+## Prompt 24 (2025-12-09)
+
+**User Prompt:**
+```
+füge zum rezept "penne spinaci" ebenfalls den autorennamen hinzu
+```
+
+**Ergebnis:**
+- Autorenname "von SpongeBob" zur Rezept-Detailseite penne-spinaci.html hinzugefügt
+- Positioniert zwischen Titel und Beschreibung im Header
+- Styling: Normal-Größe (text-base), gedämpfte Farbe (50% Opacity)
+- Abstand unten (mb-4) zur Beschreibung
+- Autorenname auch zur Rezept-Card auf rezepte.html hinzugefügt
+- Konsistentes Styling auf allen drei Seiten (index.html, rezepte.html, penne-spinaci.html)
+
+---
+
