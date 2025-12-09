@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alle Rezepte - Vegan Vampire</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- Tailwind CSS + DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Navigation -->
+    <header class="navbar bg-base-100 shadow-lg">
+        <div class="container mx-auto">
+            <div class="flex-1">
+                <a href="/" class="flex items-center gap-2">
+                    <img src="assets/images/logo-landscape.png" alt="Vegan Vampire Logo" class="h-16 w-auto">
+                </a>
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/rezepte.html">Rezepte</a></li>
+                    <li><a href="/ueber-uns.html">Über uns</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold mb-8 text-center">Alle Rezepte</h1>
+
+        <!-- Recipe Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Recipe Card: Penne Spinaci -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="h-48 bg-base-300">
+                    <div class="flex items-center justify-center h-full text-base-content/20">
+                        <span class="text-6xl">🍝</span>
+                    </div>
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Penne Spinaci</h2>
+                    <p>Cremige Pasta mit frischem Spinat und Knoblauch in veganer Sahnesauce.</p>
+                    <div class="card-actions justify-end">
+                        <a href="penne-spinaci.html" class="btn btn-primary btn-sm">Zum Rezept</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content mt-12">
+        <aside>
+            <img src="assets/images/logo.png" alt="Vegan Vampire Logo" class="h-12 w-auto mb-2">
+            <p>Vegane Rezepte</p>
+            <p class="text-sm opacity-70">© 2025 - Alle Rezepte 100% vegan</p>
+        </aside>
+    </footer>
+
+</body>
+</html>

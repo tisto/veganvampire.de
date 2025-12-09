@@ -232,3 +232,20 @@ erstelle eine über uns seite. schreibe dass wir spongebob und patrick sind und 
 
 ---
 
+## Prompt 16 (2025-12-09)
+
+**User Prompt:**
+```
+füge eine neue seite "Rezepte hinzu wo alle rezepte angezeigt werden die es auf der seite gibt"
+```
+
+**Ergebnis:**
+- rezepte.html erstellt mit Übersichtsseite für alle Rezepte
+- Titel: "Alle Rezepte"
+- Grid-Layout mit allen verfügbaren Rezepten (aktuell: Penne Spinaci)
+- Gleiche Struktur wie die Startseite
+- Navigation und Footer konsistent mit anderen Seiten
+- Über Navigation unter "Rezepte" erreichbar
+
+---
+
