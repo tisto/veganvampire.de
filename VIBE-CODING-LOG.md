@@ -249,3 +249,107 @@ füge eine neue seite "Rezepte hinzu wo alle rezepte angezeigt werden die es auf
 
 ---
 
+## Prompt 17 (2025-12-09)
+
+**User Prompt:**
+```
+füge auf der startseite hinzu: Willkommen bei Vegan Vampire. Deine Seite für vegane Rezepte.
+```
+
+**Ergebnis:**
+- Willkommensbereich auf index.html hinzugefügt
+- H1: "Willkommen bei Vegan Vampire"
+- Untertitel: "Deine Seite für vegane Rezepte."
+- "Neueste Rezepte" wurde von H1 zu H2 geändert
+- Willkommenstext zentriert über dem Rezept-Grid
+
+---
+
+## Prompt 18 (2025-12-09)
+
+**User Prompt:**
+```
+füge vegan-vampire-banner.png als banner zur startseite hinzu
+[Bild: Bowl mit veganem Essen - Tofu, Grünkohl, Avocado, Edamame, Karotten]
+```
+
+**Ergebnis:**
+- Banner-Bild vegan-vampire-banner.png in assets/images/ gefunden (14MB)
+- Banner auf index.html ganz oben im Main-Bereich eingefügt
+- Volle Breite (w-full) mit abgerundeten Ecken und Schatten
+- Banner erscheint vor dem Willkommenstext
+- Alt-Text für Barrierefreiheit hinzugefügt
+
+---
+
+## Prompt 19 (2025-12-09)
+
+**User Prompt:**
+```
+add .gitignore file with assets/.DS_Store and .DS_Store
+```
+
+**Ergebnis:**
+- .gitignore Datei erstellt
+- Einträge: .DS_Store und assets/.DS_Store
+- Verhindert das Committen von macOS-Systemdateien
+
+---
+
+## Prompt 20 (2025-12-09)
+
+**User Prompt:**
+```
+erstelle eine IMAGE-SOURCES.md datei mit einer liste der verwendeten bilder und der jeweiligen quellen. vegan-vampire-banner.png kommt von https://unsplash.com/de/fotos/ein-tisch-mit-tellern-mit-essen-und-schusseln-mit-gemuse-PssZDkA1Klc.
+```
+
+**Ergebnis:**
+- IMAGE-SOURCES.md erstellt mit vollständiger Bildquellen-Dokumentation
+- Kategorien: Banner & Hero-Bilder, Logos, Lizenzhinweise
+- Banner-Quelle dokumentiert: Unsplash-Link angegeben
+- Alle Logos dokumentiert (logo.png, logo-landscape.png, favicon.ico)
+- Lizenzhinweise für Unsplash-Bilder und eigene Designs
+- Datum der letzten Aktualisierung hinzugefügt
+
+---
+
+## Prompt 21 (2025-12-09)
+
+**User Prompt:**
+```
+das logo wurde mit gemini erstellt mit dem folgenden prompt: Erstelle ein Logo für die Website veganvampire.de mit veganen rezepten ohne werbung. das logo soll minimalistisch sein.
+```
+
+**Zusätzliche Prompts für das Logo:**
+```
+entferne den Claim "Vegane Rezepte ohne Werbung"
+```
+
+**Ergebnis:**
+- IMAGE-SOURCES.md aktualisiert mit detaillierter Logo-Quelle
+- Logo-Quelle geändert von "Eigenes Design" zu "Generiert mit Google Gemini"
+- Gemini-Prompt für logo.png und logo-landscape.png dokumentiert
+- Zusätzlicher Prompt für Claim-Entfernung dokumentiert
+- favicon.ico Quelle präzisiert: "Generiert aus logo.png mit ImageMagick"
+
+---
+
+## Prompt 22 (2025-12-09)
+
+**User Prompt:**
+```
+weitere prompts: füge einen claim unterhalb von veganvampire.de hinzu "Vegane Rezepte" / passe das logo so an, dass es auch in einem landscape format im header eine website gut funktioniert. das aktuelle logo ist zu hoch für den header.
+```
+
+**Ergebnis:**
+- IMAGE-SOURCES.md aktualisiert mit vollständiger Iterationshistorie
+- Logo-Prompts in "Initialer Prompt" und "Iterationen" strukturiert
+- logo.png Iterationen dokumentiert:
+  1. Claim-Entfernung
+  2. Neuer Claim "Vegane Rezepte" hinzugefügt
+- logo-landscape.png zusätzliche Iteration dokumentiert:
+  3. Landscape-Format-Optimierung für Header
+- Beschreibungen präzisiert für beide Logo-Varianten
+
+---
+
