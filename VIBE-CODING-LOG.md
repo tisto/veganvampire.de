@@ -387,3 +387,65 @@ füge zum rezept "penne spinaci" ebenfalls den autorennamen hinzu
 
 ---
 
+## Prompt 25 (2025-12-09)
+
+**User Prompt:**
+```
+füge das bild penne-spinaci.png zur rezeptseite und zur übersicht hinzu.
+```
+
+**Ergebnis:**
+- penne-spinaci.png in assets/images/ gefunden (15MB)
+- Bild zur Rezept-Detailseite penne-spinaci.html hinzugefügt
+  - Volle Breite, max. Höhe 500px
+  - object-cover für optimale Darstellung
+  - Abgerundete Ecken und Schatten
+- Bild zur Rezept-Card auf rezepte.html hinzugefügt
+  - Feste Höhe 192px (h-48)
+  - object-cover für Ausschnitt
+- Bild zur Rezept-Card auf index.html hinzugefügt
+  - Gleiche Darstellung wie auf rezepte.html
+- Emoji-Placeholder auf allen drei Seiten durch echtes Foto ersetzt
+
+---
+
+## Prompt 26 (2025-12-09)
+
+**User Prompt:**
+```
+ich habe vier bilder von unsplash in den images ordner abgelegt. verwende diese vier bilder auf der über-uns seite vier grundprinzipien.
+```
+
+**Ergebnis:**
+- 4 Unsplash-Bilder in assets/images/ gefunden:
+  - eduardo-ramos-848N2ORYhfg-unsplash.jpg (3.1MB)
+  - cat-preston-6O670Q8Qg58-unsplash.jpg (1.5MB)
+  - samuel-regan-asante-XnXPs_7cYNg-unsplash.jpg (3.6MB)
+  - alex-shuper-Ig0DzjVNq6U-unsplash.jpg (3.9MB)
+- Bilder zu den 4 Werte-Cards auf ueber-uns.html hinzugefügt:
+  - "100% Vegan" mit eduardo-ramos Bild
+  - "Selbst erprobt" mit cat-preston Bild
+  - "Alltagstauglich" mit samuel-regan-asante Bild
+  - "Keine Werbung" mit alex-shuper Bild
+- Jede Card hat jetzt ein Figure-Element mit Bild (h-48, object-cover)
+- Alt-Texte für Barrierefreiheit hinzugefügt
+
+---
+
+## Prompt 27 (2025-12-09)
+
+**User Prompt:**
+```
+die bilder sind falsch angebracht. schiebe das bild oben links nach unten rechts. das bild unten links nach oben links. das bild unten rechts nach oben rechts.
+```
+
+**Ergebnis:**
+- Bilder auf ueber-uns.html neu zugeordnet:
+  - "100% Vegan" (oben links): jetzt samuel-regan-asante (vorher eduardo-ramos)
+  - "Selbst erprobt" (oben rechts): jetzt alex-shuper (vorher cat-preston)
+  - "Alltagstauglich" (unten links): jetzt cat-preston (vorher samuel-regan-asante)
+  - "Keine Werbung" (unten rechts): jetzt eduardo-ramos (vorher alex-shuper)
+- Bildrotation durchgeführt wie gewünscht
+
+---
+
