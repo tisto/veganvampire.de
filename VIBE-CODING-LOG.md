@@ -214,3 +214,21 @@ vereine die schritte 1 und 2 zu einem schritt
 
 ---
 
+## Prompt 15 (2025-12-09)
+
+**User Prompt:**
+```
+erstelle eine über uns seite. schreibe dass wir spongebob und patrick sind und hier unsere veganen lieblingsgerichte mit der welt teilen. wir teilen nur rezepte die wir regelmäßig selbst zubereiten und essen.
+```
+
+**Ergebnis:**
+- ueber-uns.html erstellt mit vollständiger Über-uns-Seite
+- Vorstellung: SpongeBob und Patrick als Betreiber
+- Philosophie: Nur selbst erprobte und regelmäßig zubereitete Rezepte
+- 4 Werte-Cards: 100% Vegan, Selbst erprobt, Alltagstauglich, Keine Werbung
+- Call-to-Action mit "Viel Spaß beim Nachkochen"
+- Zurück-Button zur Startseite
+- Gleiche Navigation und Footer wie auf anderen Seiten
+
+---
+
