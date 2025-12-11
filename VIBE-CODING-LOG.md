@@ -519,3 +519,31 @@ FÜge eine halbe Avocado und 4 radieschen zum rezept hinzu
 
 ---
 
+## Prompt 32 (2025-12-10)
+
+**User Prompt:**
+```
+FÜGE ein neues rezept hinzu: Penne Arrabiata mit den folgenden zutaten: Zwiebeln + Knoblauch
+Halbe Packung dreifach konzentriertes Tomatenmark (Mutti)
+Dose Stückige Tomaten (Mutti)
+1 EL scharfes Olivenöl
+De Cecco
+```
+
+**Ergebnis:**
+- Neue Rezeptseite penne-arrabiata.html erstellt
+  - Titel: "Penne Arrabiata"
+  - Autor: SpongeBob
+  - Beschreibung: "Feurig-scharfe Pasta mit würziger Tomatensauce und Knoblauch"
+  - Portionen: 2
+  - Zubereitungszeit: 20 Minuten
+  - Schwierigkeit: Einfach
+  - Zutaten: 250g Penne (De Cecco), 1 Zwiebel, 2 Knoblauchzehen, Halbe Packung dreifach konzentriertes Tomatenmark (Mutti), 1 Dose stückige Tomaten (Mutti), 1 EL scharfes Olivenöl, Salz und Pfeffer
+  - Zubereitung: 5 Schritte (Penne kochen, Zwiebel & Knoblauch anbraten, Tomatenmark rösten, Tomaten hinzufügen & köcheln, mit Penne vermischen)
+  - Tipp: Frische Chilischoten oder mehr scharfes Olivenöl für extra Schärfe
+- Rezeptkarte auf index.html hinzugefügt (als erstes Rezept)
+- Rezeptkarte auf rezepte.html hinzugefügt (als erstes Rezept)
+- Penne Arrabiata wird jetzt vor allen anderen Rezepten angezeigt
+
+---
+
